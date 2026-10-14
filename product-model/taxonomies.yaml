@@ -1,0 +1,14 @@
+scenarioKinds:
+- id: primary
+  name: Primary
+  description: The ordinary supported outcome.
+- id: alternative
+  name: Alternative
+  description: A different supported input, route or result of the same ability.
+- id: validation
+  name: Validation
+  description: 'A request the Product refuses: invalid input, or someone or something the Rules do not
+    allow.'
+- id: edge
+  name: Edge
+  description: A conflict, an unavailable dependency, or a run that only partly completes.
